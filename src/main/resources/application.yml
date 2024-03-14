@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Challenge-AmeDigital
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:3333/amedigital
